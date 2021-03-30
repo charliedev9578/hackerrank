@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #include <vector>
+#include <cstdlib>
 using namespace std;
 
 typedef long long int ll;
@@ -32,6 +33,6 @@ int main(int argc, char const *argv[]) {
 		}
 	}
 
-	cout << getDiff(arr) << endl;
+	cout << abs(getDiff(arr)) << endl;
 	return 0;
 }
